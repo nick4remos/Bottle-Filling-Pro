@@ -1,3 +1,4 @@
+/* Basic styling retained from the original */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -22,15 +23,29 @@ header {
   margin-top: 20px;
 }
 
+#customization-panel {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#customization-panel label {
+  display: block;
+  margin-top: 10px;
+}
+
+#customization-panel input,
+#customization-panel button {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
 #gameCanvas {
   border: 2px solid #000;
   background-color: #f0f0f0;
-}
-
-#controls {
-  margin-top: 10px;
-  display: flex;
-  gap: 10px;
 }
 
 button {
