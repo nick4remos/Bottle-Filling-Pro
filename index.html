@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bottle-Filling Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="game-title">Bottle-Filling Pro</h1>
+  </header>
+
+  <main>
+    <div id="game-container">
+      <canvas id="gameCanvas"></canvas>
+      <div id="controls">
+        <button id="start-button">Start Game</button>
+        <button id="reset-button">Reset</button>
+        <label for="color-select">Select Color:</label>
+        <select id="color-select">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="scoreboard">
+      <p>Level: <span id="level">1</span></p>
+      <p>Score: <span id="score">0</span></p>
+    </div>
+
+    <div id="ad-space">
+      <!-- AdSense Placeholder -->
+      <p>Ad space here</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Bottle-Filling Pro</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
