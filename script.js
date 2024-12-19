@@ -56,5 +56,5 @@ function updateScoreboard() {
 
 // Redirect Function
 function redirectExternal() {
-  window.open('https://www.example.com', '_blank');
+  window.open('https://www.profitablecpmrate.com/gq2p2x92?key=59238dffc3a925140e4b3606679bd5ee', '_blank');
 }
